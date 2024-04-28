@@ -1,0 +1,20 @@
+button{
+    background-color:  rgb(235, 232, 127);
+    color: black;
+    border: none;
+    position: relative;
+    font-size: 17px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+.yyy {
+    transition-duration: 0.4s;
+  }
+  
+ .yyy:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }

@@ -1,0 +1,14 @@
+.mayur{
+    margin: 10px 50px;
+}
+.mayur img{
+    width: 230px;
+    filter: grayscale(100%);
+    transition: 1s;
+    padding: 5px;
+    padding-bottom: 8px;
+}
+.mayur img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}

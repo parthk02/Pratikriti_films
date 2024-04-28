@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratikriti Films</title>  
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<style>
+     *{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    /* padding: 0; */
+    /* margin: 0; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    animation: animate 16s ease-in-out infinite;
+    }
+.outer{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+.detail{
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.detail h1{
+    font-size: 4em;
+    color: rgb(199, 211, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.detail h2 span:nth-child(1){
+    color: white;
+}
+.detail h2 span:nth-child(2){
+    color: rgb(33, 219, 141);
+}
+.data{
+    color: rgb(152, 241, 226);
+}
+@keyframes animate{
+    0%,100%{
+  background-image: url(1.jpg);   
+    }
+    25%{
+    background-image: url(2.jpg);   
+        }
+     50%{
+    background-image: url(3.jpg);   
+     }
+     75%{
+    background-image: url(4.jpg);   
+  }
+} 
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="outer">
+            <div class="detail">
+                <h1>Pratikriti Films</h1>
+                <br/>
+                <br/>
+                <h2>        
+                    <span>
+                        Because we Capture Moments!
+                    </span><br/>
+                    <br/>
+                    <br/>
+                    <span class="data">Pratikriti film's passion is to capture the most beautiful,
+                        vibrant and authentic memories. <br/>We try to capture all the happiest 
+                        emotions which are unique and close to someone's heart..</span>
+                    <br/>
+                </h2>
+ 
+                <h3>
+                    <br/>
+                    <span><button class=yyy type="button " onclick="location.href='index.php'">Welcome</button></span>
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
